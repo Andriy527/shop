@@ -40,6 +40,11 @@ h3
     color: #202020;
 
 }
+.cloth_descript_contain
+{
+    position: relative;!important;
+    left: 25% !important;
+}
 h4
 {
 
@@ -102,6 +107,10 @@ button:focus,
 {
     margin-left: 25%;
     width: 100%;
+}
+.title_img_container
+{
+    margin-top: -35%;
 }
 .cloth_contain
 {
@@ -168,6 +177,7 @@ margin-top: -100px;}
     line-height: 160px;
     left: 25%;
     top: -120px;
+
 }
 .title_word
 {
@@ -204,6 +214,10 @@ margin-top: -100px;}
 {
     width: 50%;
 }
+.history_info
+{
+    width: 40%;
+}
 @media screen and (max-width: 1300px) {
     .bucket_info
     {
@@ -211,31 +225,173 @@ margin-top: -100px;}
     }
 
 }
-@media screen and (max-width: 1150px) {
-    .title_img
-    {
-        left: -10%;
-    }
 
+@media screen and (max-width: 1000px) {
+
+    .cabinet_a
+    {
+        position: relative;
+        font-size: 25px;
+        left: -8% !important;
+    }
 }
+
 @media screen and (max-width: 1100px)
 {
+
+
     .title
     {
-        z-index: 100;
+
         margin-left: 50px;
         margin-top: 180px;
+        z-index: 1;
     }
     .title_img
     {
-        margin-left: -55%;
+        margin-left: -85%;
         margin-top: -650px;
+        min-width: 1100px!important;
         z-index: -1;
+        filter: blur(1px);
 
+    }
+    .col-text
+    {
+        min-width: 100% !important;
+    }
+    .cabinet_container
+    {
+        width: 100% !important;
+        position: relative;
+        left: 20% !important;
+    }
+    .cabinet_p
+    {
+        font-size: 35px;
+    }
+
+    .cabinet_a
+    {
+        font-size: 25px;
+        margin-left: 25% !important;
+    }
+    .cabinet_a_second
+    {
+        font-size: 25px;
+        margin-left: -1% !important;
+    }
+    .adress_page
+    {
+        position: relative;
+        left: 15%;
+    }
+    .adress_block_container>p
+    {
+        font-size: 30px;
+    }
+    .cloth_descript_contain
+    {
+        position: relative;!important;
+        left: -5% !important;
+    }
+    .comment_profile_img
+    {
+        max-width: 51px!important;
+    }
+    .order
+    {
+        position: relative;
+        left: -30% !important;
+    }
+    .white_button
+    {
+        margin-top: 10% !important;
+
+    }
+
+    .cloth_descript_contain>p
+    {
+        font-size: 30px;
+        margin-left: 35%;
+        margin-top: 20px;
+    }
+    .bucket_img
+    {
+        min-width: 100% !important;
+    }
+    .container
+    {
+        left: -5%;
+    }
+    .bucket_title
+    {
+        font-size: 20px;
     }
     .title_word
     {
         z-index: 100;
+    }
+    .order-col
+    {
+        position: relative;
+
+    }
+    .order-input
+    {
+        padding-left: 10px;
+        width: 90% !important;
+    }
+    .open_unvis_image
+    {
+        max-width: 40% !important;
+        max-height: 600px !important;
+        margin-left: 10%;
+    }
+    .open_title_img
+    {
+        max-width: 40% !important;
+        max-height: 300px !important;
+        margin-left: 10%;
+    }
+    .second_section_wrapper,.second_section_img_block
+    {
+        background-color: white!important;
+
+    }
+    .adress_block
+    {
+        min-width: 100% !important;
+        min-height: 190px !important;
+        margin-left: -32%;
+    }
+    .radio
+    {
+        margin-left: -80%;
+    }
+    .adress_menu
+    {
+        min-width: 100% !important;
+        margin-left: -20% !important;
+    }
+    .second_block_img
+    {
+        min-width: 90%!important;
+        max-height: 400px !important;
+    }
+    .second_section_img_block
+    {
+        position: relative;
+        margin-left: 25%;
+        margin-top: -18%;
+    }
+    .title_img_container
+    {
+        position: relative;
+        left: -40%;
+        top:-100%;
+        width: 60%;
+        height: 60%;
     }
     .title_content
     {
@@ -272,11 +428,19 @@ margin-top: -100px;}
     {
         height: 50% !important;
         margin-top: 200px;
+        margin-left: 5%;
     }
-    .title_txt
+    .title_logo
     {
-        z-index: 100;
+        margin-bottom:30%;
     }
+    .index_input
+    {
+        position: relative;
+        width: 90%;
+        left: 10%;
+    }
+
     .card_img
     {
         max-width: 100px;
@@ -291,7 +455,10 @@ margin-top: -100px;}
     {
         margin-left: 20%;
     }
-
+     .opacity_zero
+     {
+         opacity: 0;
+     }
     .bucket_contain
     {
         display: none;
@@ -304,6 +471,18 @@ margin-top: -100px;}
     {
         display:none;
     }
+    .adress_block_container>label
+    {
+        margin-left: -200px!important;
+    }
+    .adress_col
+    {
+        width: 100% !important;
+        text-align: center!important;
+      position: relative;
+        left: 35%;
+    }
+
     .row
     {
         display: flex;
@@ -320,6 +499,7 @@ margin-top: -100px;}
         text-align: center;
     }
 }
+
 
 .title_content
 {
@@ -353,12 +533,15 @@ margin-top: -100px;}
 }
 .back
 {
+    outline: none;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
     margin-left: 5px;
+    color: black!important;
 }
+.ba
 .adress_block
 {
 
@@ -366,30 +549,8 @@ margin-top: -100px;}
     padding: 20px;
     max-width: 220px;
 }
-@media screen and (max-width: 995px)
-{
-    .title
-    {
-        z-index: 100;
-        margin-left: 50px;
-        margin-top: 180px;
-    }
-    .title_img
-    {
-        margin-left: -80% !important;
-        margin-top: -650px;
-        z-index: -1;
-        min-width: 950px;
+@media screen and (min-width: 995px) {
 
-    }
-}
-@media screen and (min-width: 1550px) {
-
-    .title_img
-    {
-
-        min-width: 850px;
-    }
 }
 
 
@@ -909,6 +1070,183 @@ width: 40%;
 
 @media screen and (max-width: 850px){
 
+
+
+    .title
+    {
+        z-index: 100;
+        margin-left: 50px;
+        margin-top: 180px;
+    }
+    .title_img
+    {
+        margin-left: -75%;
+        margin-top: -650px;
+        min-width: 850px!important;
+        z-index: -1;
+        filter: blur(1px);
+
+    }
+    .single_info_contain
+    {
+        position: relative;
+        left: 15% !important;
+    }
+    .opacity_zero
+    {
+        opacity: 0!important;
+    }
+    .title_word
+    {
+        z-index: 100;
+    }
+
+    .cabinet_p
+    {
+        font-size: 25px;
+        position: relative;
+        left: -5%;
+    }
+    .cabinet_a
+    {
+        font-size: 25px;
+        left: -20% !important;
+    }
+    .cabinet_a_second
+    {
+        font-size: 25px;
+        margin-left: 0% !important;
+    }
+
+    .cabinet_end
+    {
+        width: 100%;
+    }
+    .cloth_descript_contain
+    {
+        position: relative;!important;
+        left: -15% !important;
+    }
+
+     .order_col
+     {
+         min-width: 100% !important;
+         margin-left: 20%;
+     }
+    .title_logo
+    {
+        min-width: 100% !important;
+    }
+    .second_section_wrapper,.second_section_img_block
+    {
+        background-color: white!important;
+
+    }
+    .cloth_descript_contain
+    {
+        position: relative;
+        left: 10% !important;
+    }
+    .cloth_descript_contain>p
+    {
+        font-size: 25px;
+        margin-left: 10% !important;
+        margin-top: 20px;
+    }
+
+    .cloth_block
+    {
+        margin-left: 5% !important;
+    }
+    .second_block_img
+    {
+        min-width: 90%!important;
+        max-height: 400px !important;
+    }
+    .adress_text_contain>p {
+        display: inline;
+        font-size: 15px;
+        margin-top: 50px!important;
+    }
+
+     .cloth_descript_contain
+     {
+         font-size: 30px;
+         left: -25%;
+     }
+    .adress_text_contain>a {
+        margin-left: 20%;
+    }
+    .title_img_container
+    {
+        position: relative;
+        left: -40%;
+        top:-100%;
+        width: 60%;
+        height: 60%;
+    }
+    .title_content
+    {
+        z-index: 100;
+
+    }
+    .p
+    {
+        color: white;
+        margin-top: -100px;
+    }
+    .second_section_img
+    {
+        min-width: 500px !important;
+        height: 100% !important;
+    }
+    .cloth_descript_contain>p
+    {
+        font-size: 20px;
+        margin-left: 35%;
+        margin-top: 20px;
+    }
+    .second_block_img
+    {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .clothes_title_text
+    {
+        font-size: 25px;
+        margin-top: -15px;
+    }
+    .second_section_img_block
+    {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .slider_contant
+    {
+        margin-top: -450px!important;
+        padding-bottom: 200px!important;
+        margin-left: -350px!important;
+    }
+    .second_section_wrapper
+    {
+        height: 50% !important;
+        margin-top: 200px;
+        margin-left: 5%;
+    }
+    .title_logo
+    {
+        margin-bottom:30%;
+    }
+    .index_input
+    {
+        position: relative;
+        width: 90%;
+        left: 10%;
+    }
+    .title_txt
+    {
+        z-index: 100;
+    }
     .single_item_wrapper
     {
         margin-top:100px;
@@ -919,11 +1257,7 @@ width: 40%;
     {
         padding-top: 70px;
     }
-    .second_section_img
-    {
-        max-width: 100% !important;
-        max-height: 70% !important;
-    }
+
     .row
     {
         display: flex;
@@ -1026,14 +1360,7 @@ width: 40%;
     {
         width: 100%;
     }
-    .col-3
-    {
-        min-width: 100%;
-    }
-    img
-    {
-        min-width: 100%;
-    }
+
 
 
     .slide
@@ -1076,9 +1403,31 @@ width: 40%;
 }
 @media screen and (max-width: 768px) {
 
-    .single_info_contain
+    .title_img
     {
-        margin-left: -15%;
+        min-width: 768px!important;
+        left: 31%;
+    }
+    .title_logo
+    {
+        min-width: 150%!important;
+        margin-left: -200px!important;
+
+    }
+    .vector_img
+    {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 680px)
+{
+  .slider_txt
+  {
+      font-size: 40px;
+  }
+    .slider_contant
+    {
+        margin-left: -250px!important;
     }
 }
 @media screen and (max-width: 750px) {
@@ -1090,70 +1439,345 @@ width: 40%;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-   h3
-   {
-       font-family: Playfair Display;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 30px;
-       line-height: 110.4%;
-   }
-    .container
-    {
+    h3 {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 110.4%;
+    }
+
+    .container {
         text-align: left;
         width: 100%;
         position: relative;
         left: 2.5%;
     }
-
-    .justify-content-between
+   .dots-container
+   {
+       display: none!important;
+   }
+    h5
     {
-        justify-content: space-around!important;
+        min-width: 300px!important;
     }
-    .order_title
+    .order_title_left {
+        position: relative;
+        left: 5% !important;
+    }
+
+    .input-left {
+        position: relative;
+        left: 40% !important;
+    }
+    .visa_cart_block
     {
+        position: relative;
+        left: -3% !important;
+    }
+
+    .order_p {
+        position: relative;
+        left: 25% !important;
+    }
+
+    .order_h5 {
+        min-width: 300px !important;
+        font-size: 25px;
+        margin-left: -20%;
+    }
+
+    .newaorder-input {
+        min-width: 100% !important;
+    }
+
+    .p_newcart {
+        font-size: 25px !important;
+        margin-left: -10% !important;
+    }
+
+    .comment_profile_img {
+        min-width: 51px !important;
+    }
+
+    .order_block {
+        position: relative;
+        left: -120px !important;
+    }
+
+    .order_help {
+        margin-left: 15% !important;
+    }
+
+    .cabinet_h {
+        position: relative;
+        left: -25%;
+        display: inline;
+    }
+
+    .cabinet_p {
+        font-size: 15px;
+        position: relative;
+        left: -50%;
+    }
+
+    .cabinet_a {
+        font-size: 15px;
+        left: -59% !important;
+    }
+
+    .cabinet_a_second {
+        font-size: 25px;
+        margin-left: 0% !important;
+    }
+
+    .bucket_text_contain {
+        margin-left: 170px !important;
+        margin-top: -150px !important;
+    }
+
+    .bucket_text_contain > h5 {
+        font-size: 15px !important;
+    }
+
+    .a_small {
+        font-size: 15px !important;
+    }
+
+    .comment_block {
+        width: 100px !important;
+    }
+
+    .open_title_img {
+        max-width: 40% !important;
+        max-height: 200px !important;
+        margin-left: 10%;
+    }
+
+    .open_unvis_image {
+        max-height: 450px !important;
+    }
+
+    .title_img {
+        min-width: 450px !important;
+        left: 10%;
+        margin-top: -950px;
+    }
+
+    .title_logo {
+        min-width: 50% !important;
+        margin-left: 100px !important;
+    }
+
+    .cloth_block {
+        margin-left: 38% !important;
+    }
+
+    .second_section_img {
+        min-width: 70% !important;
+    }
+
+    .top {
+        margin: 0 !important;
+
+    }
+
+    .mobile_button {
+        margin-top: -160px !important;
+    }
+
+    .second_block_img {
+        margin-left: -150px;
+        margin-top: 200px;
+    }
+
+    .slider_contant {
+        margin-left: -45% !important;
+
+    }
+
+    .index_first_section {
+        height: 500px !important;
+    }
+
+    .slider_contant > p {
+        font-size: 20px;
+    }
+
+    .inputs {
+        min-width: 100% !important;
+        font-size: 16px;
+    }
+
+    .order-input {
+        margin-left: -15% !important;
+    }
+
+    .order-col {
+        margin-left: 10%;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+
+    .order_p {
+        margin-left: -55% !important;
+    }
+
+    .mobile_button {
+        margin-left: -40px !important;
+    }
+
+    .slider_txt {
+        font-size: 25px;
+    }
+
+    .index_last_section {
+        margin-left: -7% !important;
+        margin-top: -200px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .justify-content-between {
+        justify-content: space-around !important;
+    }
+
+    .order_title {
         margin-left: -17%;
     }
-    .order{
+
+    .order {
         position: relative;
         left: -10%;
     }
-    .unvisible
-    {
+
+    .unvisible {
         display: block;
         margin-left: 5px;
     }
-    .col-clothes
-    {
+
+    .col-clothes {
         min-width: 90% !important;
 
     }
-    .clothes_title_contain
-    {
+
+    .clothes_title_contain {
         min-width: 100%;
         position: relative;
         left: 5%;
     }
-    .white_button
-    {
-        margin-left: -160px;
-       margin-top: 10%;
-        min-width: 210px!important;
+
+    .open_container {
+        min-width: 130% !important;
+        position: relative;
+        left: -30%;
+    }
+
+    .open_p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 136.4%;
+    }
+
+    .open_text {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 110.4%;
+        width: 100% !important;
+    }
+
+    .white_button {
+        margin-left: -180px;
+        margin-top: 10%;
+        min-width: 210px !important;
 
     }
-    .clothes_container
-    {
-        margin-top: -100px!important;
+
+    .clothes_container {
+        margin-top: -100px !important;
     }
-    .right
-    {
+
+    .right {
         margin-left: 1px;
     }
-    .single_info_contain
+
+    .adress_block {
+        min-width: 140% !important;
+        min-height: 190px !important;
+        margin-left: -60%;
+    }
+
+    .single_info_contain {
+        margin-left: 17% !important;
+    }
+
+    .newadress-input {
+        position: relative;
+        left: 10% !important;
+        min-width: 350px !important;
+    }
+    .newaorder-input_one
     {
-        margin-left: 35% !important;
+        position: relative;
+
+        min-width: 350px !important;
+    }
+    .newaorder-input_one_left
+    {
+        position: relative;
+        left: -10% !important;
+        min-width: 350px !important;
+    }
+    .ccv2_input
+    {
+        position: relative;
+        left: 32% !important;
+        min-width: 300px !important;
+    }
+
+    .newaorder-input {
+        position: relative;
+
+        min-width: 350px !important;
+
+    }
+
+    .newaorder-left-input
+    {
+        position: relative;
+
+        min-width: 350px !important;
+        left: -10% !important;
+    }
+    .order_title
+    {
+        position: relative;
+        left: 40%;
+    }
+    .newadress_h5
+    {
+        position: relative;
+        font-size: 25px!important;
+        left: 5%;
+    }
+    .new_add_btn
+    {
+        max-width: 30% !important;
+        margin-left: 15% !important;
+    }
+    .new_dell_btn
+    {
+        max-width: 30% !important;
     }
     .MultiCarousel
     {
@@ -1215,10 +1839,7 @@ width: 40%;
     {
         min-width: 400px!important;
     }
-    .comment_block
-    {
 
-    }
     .col
     {
         width: 100%;
@@ -1284,9 +1905,17 @@ width: 40%;
         font-family: Playfair Display;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 136.4%;
 
+    }
+    .add_btn
+    {
+        width: 60% !important;
+    }
+    .del_btn
+    {
+        width: 60% !important;
     }
     .back
     {
@@ -1310,10 +1939,7 @@ width: 40%;
     {
         width: 100%;
     }
-    .adress_text_contain>p
-    {
-        margin-left: -30%;
-    }
+
     .help_menu
     {
         text-align: left;
@@ -1335,7 +1961,16 @@ width: 40%;
     {
         font-size: 20px;
         position: relative;
-        left: -20%;
+        left: -0%;
+    }
+    .adress_page
+    {
+        position: relative;
+        left: 15%;
+    }
+    .adress_menu
+    {
+        margin-left: -20%!important;
     }
     .container
     {
@@ -1375,6 +2010,7 @@ width: 40%;
    {
        position: relative;
        margin-left: -100px;
+       border-left: none!important;
    }
     .col-7
     {
@@ -1669,6 +2305,7 @@ width: 40%;
 
     }
 }
+
 @media screen and (max-width: 1200px) {
 
     #menu
@@ -1680,6 +2317,7 @@ width: 40%;
         padding: 50px;
         padding-left: 300px;
         padding-top: 125px;
+        z-index: 9999;
         background: #ffffff;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
@@ -1692,10 +2330,14 @@ width: 40%;
 @media screen and (max-width: 1000px) {
 
     #menu {
-        width: 90vw;
-        margin: -50px 0 0 -315px;
+        width: 120vw;
+        margin: -60px 0 0 -315px;
         text-align: center;
         padding-top: 125px;
+        position: relative;
+
+
+
     }
     #menu>li
     {
