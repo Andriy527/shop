@@ -1477,6 +1477,26 @@ width: 40%;
         position: relative;
         left: -3% !important;
     }
+    .bucket_title
+    {
+        position: relative;!important;
+        left: -13% !important;
+    }
+    .bucket_h
+    {
+        position: relative;!important;
+        left: -17% !important;
+    }
+    .hh
+    {
+        position: relative;!important;
+        left: -17% !important;
+    }
+    .hhh
+    {
+        position: relative;
+        left: -25% !important;
+    }
 
     .order_p {
         position: relative;
