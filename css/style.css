@@ -1618,6 +1618,28 @@ width: 40%;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
+@media screen and (min-width: 1300px) {
+
+    #menu
+    {
+        position: absolute;
+        width: 40vw;
+        height: 100vh;
+        margin: -50px 0 0 -315px;
+        padding-left: 220px;
+
+    }
+}
+@media screen and (min-width: 1000px) {
+
+    #menu
+    {
+        width: 60vw;
+        margin: -50px 0 0 -315px;
+        padding-left: 350px;
+        padding-top: 125px;
+}
+
 @media screen and (min-width: 1500px) {
     #menu{
 
