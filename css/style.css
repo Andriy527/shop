@@ -1467,7 +1467,7 @@ width: 40%;
    .title_img
    {
        width: 100% !important;
-       margin-left: -180px!important;
+       margin-left: -165px!important;
        margin-top: -500px!important;
    }
    .title_logo
@@ -2133,7 +2133,7 @@ width: 40%;
     {
         background-color: black;
         color: white;
-
+        width: 104.5% !important;
     }
 
     body
