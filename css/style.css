@@ -1720,6 +1720,10 @@ body h1 {
 
 @media screen and (max-width: 500px) {
 
+  .bodyy
+  {
+      overflow-x: hidden;
+  }
     h3 {
         font-family: Playfair Display;
         font-style: normal;
