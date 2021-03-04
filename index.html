@@ -258,4 +258,21 @@
     document.querySelector(".prev").addEventListener('click', prev)
 
 
+    let menu = document.getElementById('check');
+    let bool = 'false';
+    menu.addEventListener('click',function () {
+        let title_logo = document.getElementById('title_logo');
+        let title_button = document.getElementById('title_button');
+        if(bool== false) {
+            title_logo.style.display = "none";
+            title_button.style.display = "none";
+            bool = true;
+        }else if(bool == true)
+        {
+            title_logo.style.display = "block";
+            title_button.style.display = "block";
+            bool = false;
+        }
+    })
+
 </script>
