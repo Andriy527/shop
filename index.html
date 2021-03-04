@@ -35,7 +35,7 @@
                     <div class="logo_contain" style="height: 120px;">
                         <nav role="navigation">
                             <div id="menuToggle">
-                                <input type="checkbox"/>
+                                <input id="check" type="checkbox"/>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -78,12 +78,12 @@
         <div class=" row  align-items-center   ml-4">
             <div class="title col-5  mb-5 pb-5">
                 <div class="title_img_container">
-                    <img class="title_logo" src="images/Mask%20Group.png">
+                    <img class="title_logo" id="title_logo" src="images/Mask%20Group.png">
                 </div>
 
                      <div class="row ml-1 mt-5 pt-5">
                          <p class="unvisible_mobile">Перейти в каталог</p>
-                         <button type="button" href='single-item.html' class="add_btn unvisible mobile_button" style="padding: 15px;">Перейти в каталог</button>
+                         <button type="button" id="title_button" href='single-item.html' class="add_btn unvisible mobile_button" style="padding: 15px;">Перейти в каталог</button>
                          <div class="vector opacity_zero" type="button" data-toggle="modal" data-target="#exampleModal">
                          </div>
                          <img class=vector_img width="5" height="10" src="images/Vector.png">
@@ -145,8 +145,10 @@
         <div class="row ">
             <div class="col-12 row justify-content-between">
                 <div class="top mt-3 ">
+                    <div class="index_text_center">
             <h4>Подпишитесь на <br>новостную рассылку</h4>
                 <p class="p_big">Узнавай о поступлении товара-одной из первых.</p>
+                    </div>
                     <div class="row index_input mobilerow">
                     <input type="text" placeholder="Ваш адрес электронной почты" class="mail ml-3 inputs">
                         <div type="button" data-toggle="modal" data-target="#exampleModalCenter" class="vector mr-5">
@@ -254,5 +256,6 @@
 
     document.querySelector(".next").addEventListener('click', next)
     document.querySelector(".prev").addEventListener('click', prev)
+
 
 </script>
