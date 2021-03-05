@@ -1331,9 +1331,6 @@ body h1 {
         min-width: 850px!important;
 
         opacity: 1;
-        -webkit-filter: blur(1px);
-        filter: blur(1px);
-
     }
     #menu
     {
@@ -1717,7 +1714,175 @@ body h1 {
         margin-left: -1%;
     }
 }
+@media screen and (max-width: 350px) {
 
+  #menu
+  {
+      padding-left: 230px!important;
+      height: 200vh!important;
+  }
+    .index_text_center
+    {
+        position: relative;
+        margin-left: -5px !important;
+    }
+    h4
+    {
+        font-size: 25px!important;
+    }
+    .p_big
+    {
+        font-size: 15px;
+        width: 300px!important;
+    }
+    .mail_block
+    {
+        margin-left: -25px!important;
+    }
+    .order_h5
+    {
+        margin-left: -50px!important;
+    }
+    .mail
+    {
+        margin-left: -2px!important;
+    }
+    .ccv2_block
+    {
+        margin-left: 10px!important;
+    }
+    .add_block
+    {
+        position: relative;
+        left: 20px!important;
+    }
+    .order_button_left
+    {
+        position: relative;
+        left: 20px!important;
+    }
+    .order_title
+    {
+        left: 50px!important;
+    }
+    .add_btn_bucket
+    {
+        position: relative;
+        left: 10% !important;
+    }
+    .single_item_wrapper
+    {
+        max-width: 330px!important;
+    }
+    .slide-container
+    {
+        margin-top: 8%;
+    }
+    .MultiCarousel
+    {
+        margin-left: -15px!important;
+    }
+    .mobile_h
+    {
+        margin-left: 1px!important;
+    }
+    .white_button {
+        margin-left: -5px!important;
+        min-width: 100px !important;
+        margin-top: 10%;
+
+    }
+    .del_row
+    {
+        width: 360px!important;
+        margin-left: -90px!important;
+    }
+    .mobile_mail
+    {
+        margin-left: -20px!important;
+    }
+    .cloth_text
+    {
+        font-size: 30px!important;
+    }
+
+    .cloth_txt_block
+    {
+        position: relative;
+        top: 45px!important;
+    }
+    .slider_contant
+    {
+        z-index: -1;
+    }
+    .mobile_col3
+    {
+        margin-left: 15px!important;
+    }
+    .adress_block
+    {
+        margin-left: -135px!important;
+    }
+
+    .cloth_block
+    {
+        left: -10px!important;
+    }
+    .order
+    {
+        position: relative;
+        margin-left: -8% !important;
+    }
+
+    .newaorder-input
+    {
+        margin-left: 10px!important;
+    }
+    .clothes_title_text
+    {
+        top: 20px;
+    }
+    .order-input
+    {
+        left: -1px!important;
+
+    }
+
+    .order-left-input
+    {
+        left: -4% !important;
+    }
+    .cabinet_container
+    {
+        margin-left: -20px!important;
+    }
+    .cabinet_a_second
+    {
+        margin-left: 19px!important;
+    }
+    .newadress-input
+    {
+        min-width: 100% !important;
+        left: 80px!important;
+    }
+    .newadress_h5
+    {
+        margin-left: -20px!important;
+    }
+    .visa_cart_block
+    {
+        margin-left: -22px!important;
+    }
+    .mobile_mail
+    {
+        position: relative;!important;
+        left: -50px;
+    }
+    .ll
+    {
+        margin-left: 100px!important;
+    }
+}
 @media screen and (max-width: 500px) {
 
   .bodyy
@@ -1791,7 +1956,7 @@ body h1 {
     {
         width: 100% !important;
         margin-left: -150px!important;
-        margin-top: -500px!important;
+        margin-top: -520px!important;
     }
     .title_logo
     {
@@ -1950,7 +2115,7 @@ body h1 {
 
     .cabinet_a_second {
         font-size: 25px;
-        margin-left: 0% !important;
+        margin-left: 0%;
     }
 
     .bucket_text_contain {
@@ -2151,14 +2316,20 @@ body h1 {
 
     .newadress-input {
         position: relative;
-        left: 10% !important;
-        min-width: 350px !important;
+        left: 10% ;
+        min-width: 350px ;
     }
     .newaorder-input_one
     {
         position: relative;
         left: 3%;
         min-width: 350px !important;
+    }
+    .newadress-input_one
+    {
+        position: relative;
+        left: 5% !important;
+        min-width: 200% !important;
     }
     .newaorder-input_one_left
     {
@@ -2169,7 +2340,7 @@ body h1 {
     .ccv2_input
     {
         position: relative;
-        left: 15% !important;
+        left: 15%;
         min-width: 300px !important;
     }
 
@@ -2182,7 +2353,7 @@ body h1 {
     .order-left-input
     {
         position: relative;
-        left:5% !important;
+        left:5%;
     }
     .index_text_center
     {
@@ -2231,7 +2402,7 @@ body h1 {
     }
     .p_big
     {
-        font-size: 20px!important;
+        font-size: 15px;
         width: 350px;
     }
 
@@ -2348,8 +2519,6 @@ body h1 {
     {
         left: 5%;
     }
-
-
     p
     {
         font-size: 10px;
@@ -2371,11 +2540,11 @@ body h1 {
     }
     .add_btn
     {
-        width: 60% !important;
+        width: 60% ;
     }
     .del_btn
     {
-        width: 60% !important;
+        width: 60% ;
     }
     .back
     {
