@@ -1828,6 +1828,11 @@ body h1 {
         width: 300px!important;
     }
 
+    .bot_margin
+    {
+        position: relative;
+        margin-top: 100px!important;
+    }
     .mobile_contain_nav>h5
     {
         margin-left: 25px!important;
