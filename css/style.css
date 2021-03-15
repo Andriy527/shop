@@ -1733,8 +1733,21 @@ body h1 {
     {
         margin-left: -35%;
     }
+    .mobile_col3
+    {
+        min-width: 1000px;
+    }
+    .bucket
+    {
+        min-width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
+
+    .mobile_col3
+    {
+        min-width: 740px;
+    }
 
     .title_img
     {
@@ -1798,6 +1811,11 @@ body h1 {
     {
         font-size: 25px!important;
     }
+    .b_help
+    {
+        position: relative!important;
+        left: -70px;
+    }
     .p_big
     {
         font-size: 15px;
@@ -1824,6 +1842,12 @@ body h1 {
         position: relative;
         left: -9%!important;
     }
+    .sr
+    {
+        position: relative;
+        left: -13% !important;
+    }
+
     .small_block
     {
         position: relative!important;
@@ -2052,6 +2076,17 @@ body h1 {
         text-align: left !important;
     }
 
+    .b_help
+    {
+        position: relative!important;
+        left: -70px;
+    }
+    .srr
+    {
+        position: relative;
+        left: -25% !important;
+    }
+
     h3 {
         font-family: Playfair Display;
         font-style: normal;
@@ -2089,6 +2124,18 @@ body h1 {
         left: 0% !important
 
     }
+    .order_p
+    {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px!important;
+        line-height: 136.4%;
+        text-align: left!important;
+        min-width: 300px!important;
+        position: relative;
+
+
+    }
     .margin
     {
         min-width: 350px!important;
@@ -2104,6 +2151,15 @@ body h1 {
         margin-left: -35px;
     }
     .order_h5
+    {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px!important;
+        line-height: 136.4%;
+
+        text-align: left!important;
+    }
+    .newadress_h5
     {
         font-style: normal;
         font-weight: normal;
@@ -2426,7 +2482,7 @@ body h1 {
 
     .p_newcart {
         font-size: 25px !important;
-        margin-left: -10% !important;
+        margin-left: 5% !important;
     }
     .mobile_contain_nav>h3
     {
@@ -2469,6 +2525,11 @@ body h1 {
         left: -20%;
         display: inline;
         margin-bottom: 20px!important;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px!important;
+        line-height: 110.4%;
     }
 
     .cabinet_p {
@@ -2743,25 +2804,16 @@ body h1 {
         position: relative;
         left: 40%;
     }
-    .newadress_h5
-    {
-        position: relative;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px!important;
-        line-height: 136.4%;
-        left: 2%;
-        text-align: left!important;
 
-    }
     .new_add_btn
     {
-        max-width: 30% !important;
+        max-width: 40% !important;
         margin-left: 15% !important;
     }
     .new_dell_btn
     {
-        max-width: 30% !important;
+        max-width: 40% !important;
+        margin-left: 5% !important;
     }
     .MultiCarousel
     {
@@ -3321,7 +3373,7 @@ body h1 {
     .mrt
     {
         position: relative!important;
-        left: 0%;
+        left: 5%;
 
     }
 }
@@ -3457,6 +3509,17 @@ body h1 {
     {
         min-width: 400px;
     }
+    .order_p
+    {
+        position: relative;
+        left: 40px!important;
+    }
+
+    .sl
+    {
+        position: relative!important;
+        left: -15%;
+    }
     .comment_p
     {
         font-family: Montserrat;
@@ -3477,7 +3540,20 @@ body h1 {
         position: relative!important;
         left: 0%;
     }
+    .mrt
+    {
+        position: relative!important;
+        left: -4%;
 
+    }
+    .new_add_btn
+    {
+        left: 15% !important;
+    }
+    .new_dell_btn
+    {
+
+    }
 
 }
 @media screen and (min-width: 1800px) {
