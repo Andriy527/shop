@@ -96,25 +96,33 @@
             <label for="test2">Почта</label>
         </p>
         <hr class="mt-5">
-        <h5 class="mt-5 order_h5">Адрес доставки</h5>
+        <h5 class="mt-5 order_h5 ">Адрес доставки</h5>
         <div class="row mobilerow mt-5">
-        <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Город" style="width: 20%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Улица" style="width: 35%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Дом" style="width: 10%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Кв" style="width: 10%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Индекс" style="width: 12%;">
+            <div class="order_margin top_margin">
+        <input type="text" class="order-input city_inp ml-3" placeholder="Город" style="width: 20%;">
+            <input type="text" class="order-input street_inp ml-3" placeholder="Улица" style="width: 29%;">
+
+
+            <input type="text" class="order-input big_input ml-3" placeholder="Дом" style="width: 10%;">
+            <input type="text" class="order-input big_input ml-3" placeholder="Кв" style="width: 10%;">
+            <input type="text" class="order-input big_input ml-3" placeholder="Индекс" style="width: 12%;">
+        </div>
         </div>
     <hr class="mt-5">
-        <h5 class="mt-5 order_h5">Контактная информация</h5>
+        <h5 class="mt-5 order_h5 ">Контактная информация</h5>
         <div class="row mobilerow mt-5">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Имя" style="width: 31%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Фамилия" style="width: 31%;">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="Отчество" style="width: 31%;">
+            <div class="order_margin top_margin">
+            <input type="text" class="order-input big_input ml-3" placeholder="Имя" style="width: 29%;">
+            <input type="text" class="order-input big_input ml-3" placeholder="Фамилия" style="width: 29%;">
+            <input type="text" class="order-input big_input ml-3" placeholder="Отчество" style="width: 29%;">
         </div>
-        <div class="row mt-5 mail_block">
-            <input type="text" class="order-input newaorder-input_one_left ml-3 mobile_mail" placeholder="E-mail" style="width: 47%;">
-            <input type="text" class="order-input newaorder-input_one_left ml-3 mobile_mail" placeholder="Телефон" style="width: 47%;">
+        </div>
 
+        <div class="row mobilerow mt-5">
+            <div class="margin top_margin left_margin">
+            <input type="text" class="order-input contact_inputs  ml-3" placeholder="E-mail" style="width: 45%;">
+            <input type="text" class="order-input contact_inputs  ml-3" placeholder="Телефон" style="width: 45%;">
+        </div>
         </div>
     <hr class="mt-5">
         <h5 class="mt-5 order_h5">Cпособ оплаты</h5>
@@ -133,23 +141,25 @@
         <p class="order_p">Введите данные вашей банковской карты</p>
         <h5 class="mt-5 order_h5">Номер карты</h5>
         <div class="row mobilerow mt-5 ">
-            <input type="text" class="order-input newaorder-input_one ml-3" placeholder="" style="width: 16%;">
-            <input type="text" class="order-input mobile_visible newaorder-input ml-3" placeholder="" style="width: 16%;">
-            <input type="text" class="order-input mobile_visible newaorder-input ml-3" placeholder="" style="width: 16%;">
-            <input type="text" class="order-input mobile_visible newaorder-input ml-3" placeholder="" style="width: 16%;">
+            <div class="margin top_margin left_margin cart_inputs_block">
+            <input type="text" class="order-input small_input  ml-3" placeholder="" style="width: 16%;">
+            <input type="text" class="order-input small_input   ml-3" placeholder="" style="width: 16%;">
+            <input type="text" class="order-input small_input   ml-3" placeholder="" style="width: 16%;">
+            <input type="text" class="order-input small_input   ml-3" placeholder="" style="width: 16%;">
         </div>
-        <div class="row">
-            <div>
-        <h5 class="mt-5 order_h5">Срок действия</h5>
-                <div class="rowmt-5 ">
-                    <input type="text" class="order-input  order-left-input ml-3" placeholder="" style="width: 25%;">
-                    <input type="text" class="order-input mobile_visible newadress-input ml-3" placeholder="" style="width: 25%;">
+        </div>
+        <div class="row mobilerow mobile_small_inputs_wrapper">
+            <div class="mobile_inputs">
+        <h5 class="mt-5 ml-3 order_h5">Срок действия</h5>
+                <div class="rowmt-5 mobilerow ">
+                    <input type="text" class="order-input  small_input ml-3 " placeholder="" style="width: 25%;">
+                    <input type="text" class="order-input  small_input ml-3 l" placeholder="" style="width: 25%;">
                 </div>
             </div>
-            <div class="mt-1">
+            <div class="mt-1 mobile_small_inputs">
             <h5 class="mt-5 order_h5">CCV2 / CVC2</h5>
-            <div class="row ccv2_block">
-                <input type="text" class="order-input ccv2_input ml-3" placeholder="" style="width: 45%;">
+            <div class="row ">
+                <input type="text" class="order-input small_input ml-3" placeholder="" style="width: 45%;">
             </div>
             </div>
         </div>
@@ -168,22 +178,24 @@
 
               </div>
               <div class="row mobilerow justify-content-between right">
-                  <h5 >Итого:</h5>
-                  <h5>10000 KZ</h5>
+                  <h5 class="result_order_h" >Итого:</h5>
+                  <h5 class="result_order_h">10000 KZ</h5>
 
               </div>
               <div class="add_block">
-            <button class="add_btn top left">Оформить заказ</button>
+            <button class="add_btn order_btn top ">Оформить заказ</button>
               </div>
               <div class="order_button_left">
-              <h3 class="mt-5 left">Методы оплаты</h3>
-              <div type="button" class="mt-5 left">
-                  <img src="images/533232-visa-mastercard-15856852604475%201.png">
+                  <div class="mobile_contain_nav">
+              <h3 class="mt-5 ">Методы оплаты</h3>
+              <div type="button" class="mt-5 smt">
+                  <img class="card_image" src="images/533232-visa-mastercard-15856852604475%201.png">
               </div>
-              <h5 class="mt-5 right">
+              <h5 class="mt-5 right  " >
                   Помощь
               </h5>
-              <div class="mt-5 left">
+                  </div>
+              <div class="mt-5 small_block smt ">
               <a href="#" class="a_small">Условия доставки</a>
               <a href="#" class="a_small">Условия доставки</a>
               <a href="#" class="a_small">Условия доставки</a>

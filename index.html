@@ -91,8 +91,9 @@
                 </div>
 
                      <div class="row ml-1 mt-5 pt-5">
+                         <p class="unvisible title_text" style="color:#ffffff">Стиль есть у каждого из нас-его нужно просто найти</p>
                          <p class="unvisible_mobile">Перейти в каталог</p>
-                         <button type="button" id="title_button" href='single-item.html' class="add_btn unvisible mobile_button" style="padding: 15px;">Перейти в каталог</button>
+                         <button type="button" id="title_button" href='single-item.html' class="add_btn unvisible mobile_button" style="padding: 15px;">В каталог</button>
                          <div class="vector opacity_zero" type="button" data-toggle="modal" data-target="#exampleModal">
                          </div>
                          <img class=vector_img width="5" height="10" src="images/Vector.png">
@@ -141,11 +142,11 @@
         <img class="second_block_img none" src="images/Rectangle%2021.png">
         </div>
        <div class="slider_contant pl-5 ml-5">
-           <h2 class="slider_txt"> Новая яркая коллекция<br>
+           <h2 class="slider_txt"> Новая яркая коллекция<br class="unvisible_mobile">
                сумок</h2>
-           <p style="max-width: 500px;">Новая весенняя коллекция сумок и аксессуаров,позволь себе своему
+           <p style="max-width: 500px;" class="index_p">Новая весенняя коллекция сумок и аксессуаров,позволь себе своему
                отражению-радовать тебя.</p>
-           <button href="" class="add_btn">Перейти в каталог</button>
+           <button href="" class="add_btn index_big_btn">Перейти в каталог</button>
        </div>
 
 </section>
@@ -173,7 +174,7 @@
     </div>
 </section>
 <footer>
-    <div class="container">
+    <div class="container footer_container">
         <div class="row justify-content-between">
             <div class="row">
             <p class="ml-4">Copyright © 2020 S.Bags All rights reserved.</p>
@@ -228,7 +229,12 @@
                 <input type="text" class="modal_input mt-3" placeholder="    E-mail">
                 <input type="text" class="modal_input mt-3" placeholder="    Введите пароль">
                 <input type="text" class="modal_input mt-3" placeholder="    Повторите пароль">
-
+                <p class="radio mt-3">
+                    <input type="radio" id="test4" name="radio-group" checked>
+                    <label for="test4">Подписаться на скидки и новости</label>
+                </p>
+                <button class="add_btn">Зарегистрироваться</button>
+                <p class="modal_text mt-4">Нажимая кнопку «Зарегистрироваться», я даю свое согласие на обработку моих персональных данных согласно нашей Политике конфиденциальности</p>
             </div>
 
         </div>
