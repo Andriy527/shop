@@ -311,11 +311,11 @@ button:focus,
 #menu
 {
     position: absolute;
-    width: 30vw;
+    width: 45vw;
     min-height: 140vh;
     margin: -50px 0 0 -315px;
     padding: 50px;
-    padding-left: 120px;
+    padding-left: 220px;
     padding-top: 125px;
     z-index: 9999;
     background: #ffffff;
@@ -3411,11 +3411,11 @@ body h1 {
     #menu
     {
         position: absolute;
-        width: 30vw;
+        width: 50vw;
         min-height: 140vh;
         margin: -60px 0 0 -315px;
         padding: 50px;
-        padding-left: 150px;
+        padding-left: 250px;
         padding-top: 125px;
         z-index: 9999;
         background: #ffffff;
