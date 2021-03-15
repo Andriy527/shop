@@ -1806,7 +1806,7 @@ body h1 {
   #menu
   {
       padding-left: 230px!important;
-      height: 200vh!important;
+      min-height: 200vh!important;
   }
     .index_text_center
     {
@@ -3144,6 +3144,10 @@ body h1 {
         width: 100px;
 
     }
+    .i
+    {
+        width: 100px;
+    }
     .mobileleft
     {
         position: relative;
@@ -3189,7 +3193,12 @@ body h1 {
     {
         min-width: 100%;
     }
+
     #title_logo
+    {
+        min-width: 100%;
+    }
+    .i
     {
         min-width: 100%;
     }
